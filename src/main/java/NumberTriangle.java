@@ -131,8 +131,8 @@ public class NumberTriangle {
             if (prevRow != null) {
                 for (int i = 0; i < prevRow.size(); i++) {
                     NumberTriangle parent = prevRow.get(i);
-                    parent.setLeft(curRow.get(i));           // 左孩子：同索引
-                    parent.setRight(curRow.get(i + 1));      // 右孩子：下一列
+                    parent.setLeft(curRow.get(i));
+                    parent.setRight(curRow.get(i + 1));     
                 }
             }
 
